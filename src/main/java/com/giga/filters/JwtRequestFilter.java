@@ -1,7 +1,7 @@
-package com.testjwt.filters;
+package com.giga.filters;
 
-import com.testjwt.services.MyUserDetailsService;
-import com.testjwt.util.JwtUtil;
+import com.giga.services.MyUserDetailsService;
+import com.giga.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

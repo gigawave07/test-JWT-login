@@ -1,16 +1,19 @@
-package com.testjwt.controllers;
+package com.giga.controllers;
 
-import com.testjwt.models.AuthenticationRequest;
-import com.testjwt.models.AuthenticationResponse;
-import com.testjwt.services.MyUserDetailsService;
-import com.testjwt.util.JwtUtil;
+import com.giga.models.AuthenticationRequest;
+import com.giga.models.AuthenticationResponse;
+import com.giga.services.MyUserDetailsService;
+import com.giga.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloResource {

@@ -1,4 +1,4 @@
-package com.testjwt.models;
+package com.giga.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

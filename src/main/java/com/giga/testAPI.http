@@ -1,6 +1,6 @@
 GET http://localhost:8080/hello
 Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb28iLCJleHAiOjE2MDczODE0NDgsImlhdCI6MTYwNzM0NTQ0OH0.JkdNiiKOkslux15mjTDPdw4XuE5C_q7QOrOWO8757NE
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb28iLCJleHAiOjE2MDc2NDY4MTQsImlhdCI6MTYwNzYxMDgxNH0.q-IowvLTC6YkGV4qBggdy9BuV8fVDT2Gdg3_-g-XrT0
 
 ###
 POST http://localhost:8080/authenticate

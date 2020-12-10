@@ -1,4 +1,4 @@
-package com.testjwt.services;
+package com.giga.services;
 
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
